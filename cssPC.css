@@ -167,17 +167,18 @@ body {
      margin-left: 30px; 
      height: 400px;
      width: 300px;
-     border: 1px solid #605E5E ;
+     border: 2px solid #605E5E ;
      border-radius: 20px 20px;
+     
      
  }
 
  .card-body img {
-    height: 200px;
-    width: 200px;
+    margin-top: 10px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
-    
-
+    border: 1px solid #605E5E ;
  }
 
 .title-content {
@@ -198,6 +199,9 @@ body {
 }
  .card-bottom {
      padding-top: 100px;
+     border: 1px solid #605E5E;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
  }
 
  .media ul{
