@@ -147,8 +147,72 @@ body {
      letter-spacing: 2px;
  }
 
+.content {
+    padding-top: 50px;
+    padding-bottom: 700px;
+    text-align: center;
+}
+ .card-list {
+    padding-left: 10%;
+ }
+
+ .card-list ul {
+     list-style-type: none;
+ }
+
+ 
+ .card-body {
+     float: left;
+     margin-top: 30px;
+     margin-left: 30px; 
+     height: 400px;
+     width: 300px;
+     border: 1px solid #605E5E ;
+     border-radius: 20px 20px;
+     
+ }
+
+ .card-body img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+
+ }
+
+.title-content {
+    padding: 10px 25px;
+
+}
+
+.content h1 {
+    font-size: 36pt;
+    text-align: center;
+}
+
+.content h2 {
+    margin-top: 10px;
+    font-size: 28pt;
+    text-align: center;
+
+}
+ .card-bottom {
+     padding-top: 100px;
+ }
+
+ .media ul{
+     list-style-type: none;
+ }
 
 
+ .media a {
+     font-size: 25px;
+     margin: 10px 5px;
+     
+ }
+.media li {
+    margin-top: 10px;
+}
 .loc{
     padding: 20px;
     text-align: center;  
