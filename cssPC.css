@@ -26,8 +26,7 @@ body {
 .head ul li{
     list-style: none;
     float: left;
-    padding: 20px 30px;
-    
+    padding: 20px 30px;   
 }
 
 .head ul{
@@ -149,80 +148,61 @@ body {
 
 .content {
     padding-top: 50px;
-    padding-bottom: 700px;
     text-align: center;
 }
- .card-list {
-    padding-left: 10%;
- }
 
- .card-list ul {
-     list-style-type: none;
- }
+.card-list{
+    margin: 40px 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;   
+}
 
  
  .card-body {
-     float: left;
-     margin-top: 30px;
-     margin-left: 30px; 
-     height: 400px;
-     width: 300px;
+     margin: 30px 30px 0 30px;
      border: 2px solid #605E5E ;
      border-radius: 20px 20px;
-     
+     text-align: center;
+     width: 80%;
      
  }
 
  .card-body img {
     margin-top: 10px;
-    height: 180px;
-    width: 180px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     border: 1px solid #605E5E ;
  }
 
-.title-content {
-    padding: 10px 25px;
 
-}
-
-.content h1 {
-    font-size: 36pt;
-    text-align: center;
-}
 
 .content h2 {
     margin-top: 10px;
-    font-size: 28pt;
     text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 2px;
 
 }
  .card-bottom {
-     padding-top: 100px;
-     border: 1px solid #605E5E;
-     border-bottom-left-radius: 20px;
-     border-bottom-right-radius: 20px;
+     padding-top: 50px;
  }
 
- .media ul{
-     list-style-type: none;
- }
 
 
  .media a {
      font-size: 25px;
      margin: 10px 5px;
-     
+     color: #000000;
  }
-.media li {
-    margin-top: 10px;
-}
+
 .loc{
-    padding: 20px;
+
     text-align: center;  
     color: rgb(0, 0, 0);
-    padding: 100px;
-
 }
 
 .loc h3{
@@ -231,10 +211,9 @@ body {
 
 .loc .tittle, .contact .tittle{
     margin-bottom: 20px;
-    margin-top: 100px;
+    margin-top: 300px;
     margin-bottom: 30px;
     color: #000000;
-    padding-left: 1px;
     padding-bottom: 40px;
     border-width: 0 0 3px;
     border-style:solid;
@@ -263,12 +242,12 @@ a{
 
 .contact{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 }
 
 .contact a{
     color: black;
-    padding: 20px;
+    padding: 10px;
 }
 
 footer{
@@ -276,6 +255,10 @@ footer{
     color: #ffffff;
     padding: 80px;
     background-color: #102427;
+}
+
+#click{
+    display: none;
 }
 
 

@@ -15,4 +15,19 @@
       .produk1{
         width: 70%;
       }
+
+      .card-list{
+        flex-direction: column;
+      }
+
+      .head ul li a{
+        font-size: smaller;
+    }
+    .head ul li{
+      margin-right: -10px;
+      
+  }
+  #click{
+    display: none;
+}
   }
