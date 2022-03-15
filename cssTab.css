@@ -12,6 +12,9 @@
         margin-top: 50px;
         margin-bottom: -20px;
       }
+      .first .description{
+        font-size: 32px;
+      }
       .produk1{
         width: 70%;
       }
