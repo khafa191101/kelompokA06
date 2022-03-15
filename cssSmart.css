@@ -72,11 +72,26 @@
         width: 50%;
     }
 
-    .kata h1 {
-        font-size: x-large;
+    .brand{
+        font-size: 30px;
+    }
+
+    .description{
+        font-size: 20px;
+      }
+
+    .button1{
+        font-size: 15px;
     }
 
     #click {
         display: none;
+    }
+    .tittle, .content h2{
+        font-size: 23px;
+    }
+
+    footer{
+        font-size: 12px;
     }
 }
