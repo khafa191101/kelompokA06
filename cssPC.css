@@ -1,65 +1,63 @@
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     background-color: rgb(206, 197, 197);
     min-height: 200vh;
- }
+}
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-.head{
+.head {
     display: flex;
-    color: #FFFDDE;
+    color: #fffdde;
     position: fixed;
     right: 0;
     left: 0;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.9);   
+    background-color: rgba(0, 0, 0, 0.9);
     align-items: center;
     z-index: 10;
 }
 
-.head ul li{
+.head ul li {
     list-style: none;
     float: left;
-    padding: 20px 30px;   
+    padding: 20px 30px;
 }
 
-.head ul{
+.head ul {
     margin-right: 20px;
-    
 }
 
-.head ul li a{
-    color: #FFFDDE;
+.head ul li a {
+    color: #fffdde;
     text-decoration: none;
 }
 
-.head ul li a:hover{
+.head ul li a:hover {
     color: rgb(96, 230, 185);
     margin-bottom: 6px;
     border-width: 0 0 3px;
-    border-style:solid;
+    border-style: solid;
     padding-bottom: 18px;
 }
 
-.head-left{
+.head-left {
     margin-left: 20px;
 }
 
-.head-left h1{
+.head-left h1 {
     letter-spacing: 2px;
     font-style: italic;
 }
 
-.first{
+.first {
     background-image: url(https://img.wallpapersafari.com/desktop/1024/576/6/6/WMZxBR.jpg);
     background-size: cover;
-    padding: 300px 0 380px 0;
+    padding: 250px 0 380px 0;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 22px;
@@ -68,115 +66,99 @@ body {
     font-weight: bolder;
 }
 
-.brand{
-    font-weight:bolder ;
-    color: #FFFDDE;;
+.brand {
+    font-weight: bolder;
+    color: #fffdde;
 }
 
-
-.first span{
+.first span {
     color: rgb(49, 8, 8);
     font-weight: bolder;
 }
 
-.button1{
+.button1 {
     margin-top: 50px;
-    
 }
 
-.button1 a{
-
+.button1 a {
     padding: 10px 30px;
     border-radius: 10px;
-    background-color: rgba(59, 12, 12, 0.6); 
+    background-color: rgba(59, 12, 12, 0.6);
     color: #ffffff;
     text-decoration: none;
     font-weight: bolder;
     transition: all 0.5s;
 }
 
-.button1 a:hover{
-    background-color: rgba(49, 8, 8); 
+.button1 a:hover {
+    background-color: rgba(49, 8, 8);
     animation-delay: 1s;
-
 }
 
-.produk{
+.produk {
     margin: 40px 40px;
     border-color: black;
     border-radius: 10px;
     border-style: double;
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .produk1 {
     width: 25%;
+}
 
-    
-    
-  }
-  
-  .produk-icon {
+.produk-icon {
     position: relative;
-    
-  }
+}
 
- .produk-icon p{
+.produk-icon p {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 20px;
     font-weight: bolder;
     font-style: italic;
- } 
+}
 
- .produk2{
-    text-align: center;
-    
- }
-
-
- .tittle{
-     text-align: center;
-     margin-top: 50px;
-     font-size: 30px;
-     font-style: italic;
-     font-weight: bolder;
-     letter-spacing: 2px;
- }
-
-.content {
-    padding-top: 50px;
+.produk2 {
     text-align: center;
 }
 
-.card-list{
+.tittle {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.content {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.card-list {
     margin: 40px 40px;
     align-items: center;
     justify-content: center;
-    display: flex;   
+    display: flex;
 }
 
- 
- .card-body {
-     margin: 30px 30px 0 30px;
-     border: 2px solid #605E5E ;
-     border-radius: 20px 20px;
-     text-align: center;
-     width: 80%;
-     
- }
+.card-body {
+    margin: 30px 30px 0 30px;
+    border: 2px solid #605e5e;
+    border-radius: 20px 20px;
+    text-align: center;
+    width: 80%;
+}
 
- .card-body img {
+.card-body img {
     margin-top: 10px;
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    border: 1px solid #605E5E ;
- }
-
-
+    border: 1px solid #605e5e;
+}
 
 .content h2 {
     margin-top: 10px;
@@ -185,50 +167,49 @@ body {
     font-style: italic;
     font-weight: bolder;
     letter-spacing: 2px;
-
 }
- .card-bottom {
-     padding-top: 50px;
- }
+.card-bottom {
+    padding-top: 40px;
+}
 
-
-
- .media a {
-     font-size: 25px;
-     margin: 10px 5px;
-     color: #000000;
- }
-
-.loc{
-
-    text-align: center;  
+.media a {
+    font-size: 25px;
+    margin: 10px 5px;
+    color: #000000;
+}
+.location {
+    margin-top: 20px;
+}
+.loc {
+    text-align: center;
     color: rgb(0, 0, 0);
 }
 
-.loc h3{
+.loc h3 {
     padding: 20px;
 }
 
-.loc .tittle, .contact .tittle{
+.loc .tittle,
+.contact .tittle {
     margin-bottom: 20px;
-    margin-top: 300px;
+    margin-top: 150px;
     margin-bottom: 30px;
     color: #000000;
     padding-bottom: 40px;
     border-width: 0 0 3px;
-    border-style:solid;
+    border-style: solid;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.loc a{
+.loc a {
     padding: 15px;
-    background-color: rgba(117, 104, 104, 0.9);   
+    background-color: rgba(117, 104, 104, 0.9);
     border-radius: 10px;
     box-shadow: 0 7px #29352e;
     color: azure;
@@ -238,27 +219,25 @@ a{
     position: relative;
     top: 7px;
     box-shadow: none;
-  }
-
-.contact{
-    text-align: center;
-    margin-bottom: 300px;
 }
 
-.contact a{
+.contact {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.contact a {
     color: black;
     padding: 10px;
 }
 
-footer{
+footer {
     text-align: center;
     color: #ffffff;
     padding: 80px;
     background-color: #102427;
 }
 
-#click{
+#click {
     display: none;
 }
-
-
